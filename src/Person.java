@@ -26,6 +26,15 @@ public class Person {
     public int getAge (){
         return age;
     }
+    public int getWords (){
+        int count = 0;
+            for (int i = 0; i < surname.length(); i++) {
+                if(surname.charAt(i) == ' ' | surname.charAt(i) == '-' ){
+                    count++;
+                }
+            }
+            return count;
+    }
     public String toString(){
         return "Person{ " + "name: " + name + " surname: " + surname + " age: " + age + "\n";
     }
