@@ -9,7 +9,7 @@ public class Main {
         peoples.add(new Person("Михаил", "Иванов", 24));
         peoples.add(new Person("Мария", "Курочкина Петровкина", 20));
         peoples.add(new Person("Александр", "Ершов Павлович", 16));
-        peoples.add(new Person("Анастасия", "Белова", 18));
+        peoples.add(new Person("Анастасия", "Белова", 15));
 
 
         Predicate<Person> predicate = (person -> person.getAge() < 18);
